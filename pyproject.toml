@@ -1,0 +1,17 @@
+[project]
+name = "mmrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "frontend>=0.0.3",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "openai>=1.102.0",
+    "pdfminer>=20191125",
+    "pdfminer-six>=20250506",
+    "pdfplumber>=0.11.7",
+    "pymupdf>=1.26.4",
+    "typing>=3.10.0.0",
+]
